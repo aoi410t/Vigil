@@ -1,0 +1,23 @@
+Cactbot timeline files vendored from https://github.com/OverlayPlugin/cactbot
+(directory ui/raidboss/data/...), licensed under the Apache 2.0 License
+with a partial-source clause.
+
+These files are the authoritative encounter timelines maintained by the cactbot
+community. Used by Vigil to annotate fight_model rows with human-readable
+mechanic names + expected phase-relative timings. We redistribute them as-is.
+
+Upstream license: https://github.com/OverlayPlugin/cactbot/blob/main/LICENSE
+
+Files:
+  r9s.txt                       — M9S Vamp Fatale
+  r10s.txt                      — M10S Red Hot and Deep Blue
+  r11s.txt                      — M11S The Tyrant
+  r12s.txt                      — M12S Lindwurm + M12S-P2 (Lindwurm II)
+  futures_rewritten.txt         — FRU
+  the_omega_protocol.txt        — TOP
+  dragonsongs_reprise_ultimate.txt — DSR
+
+To refresh: run `.\scripts\refresh_cactbot.ps1` from the project root
+(it re-fetches every file from upstream raw.githubusercontent.com and
+reports per-file size diffs). Use `-DryRun` to preview, `-Only <name>`
+to refresh a single file.

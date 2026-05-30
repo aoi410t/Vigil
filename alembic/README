@@ -1,0 +1,4 @@
+Generic single-database configuration.
+
+Migrations land in `versions/`. T-003 will add the first revision covering all
+PLAN.md §6 tables.
